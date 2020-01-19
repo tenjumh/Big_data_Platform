@@ -34,7 +34,7 @@ AWS Account status            |
 ### 6. AWS Management console 접속 및 EC 접속
 Management console            |  EC2 접속
 :-------------------------:|:-------------------------:
-![6](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/8.aws%20console2.PNG) |![6](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/9.EC2.PNG) 
+![6](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/8.aws%20console2.PNG) |![6](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/8_1.aws%20console3_EC2.PNG) 
 "콘솔 접속"|"상단 서비스 - 컴퓨팅 - EC2 선택"
 
 ### 7. EC2 대쉬보드
