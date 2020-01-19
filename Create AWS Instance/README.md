@@ -28,13 +28,8 @@ Original            |  GT   |  Result
 ### **2. AWS에 접속한다.**
 Google AWS 검색            |  **[AWS Educate]**(https://www.awseducate.com/)
 :-------------------------:|:-------------------------:
-![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/2.%EC%95%84%EB%A7%88%EC%A1%B4%20%EC%95%A0%EB%93%80%EB%A1%9C%EA%B7%B8%EC%9D%B82.PNG "Google AWS 검색")  |  ![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/3.%EC%95%84%EB%A7%88%EC%A1%B4%20%EC%95%A0%EB%93%80%EB%A1%9C%EA%B7%B8%EC%9D%B83.png "[AWS Educate]")
+![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/2.%EC%95%84%EB%A7%88%EC%A1%B4%20%EC%95%A0%EB%93%80%EB%A1%9C%EA%B7%B8%EC%9D%B82.PNG "Google AWS 검색")  |  ![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/3.%EC%95%84%EB%A7%88%EC%A1%B4%20%EC%95%A0%EB%93%80%EB%A1%9C%EA%B7%B8%EC%9D%B83.PNG "[AWS Educate]")
 
-:-------------------------:|
-![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/2.%EC%95%84%EB%A7%88%EC%A1%B4%20%EC%95%A0%EB%93%80%EB%A1%9C%EA%B7%B8%EC%9D%B82.PNG)
-
-**[AWS Educate]**(https://www.awseducate.com/)
-![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/3.%EC%95%84%EB%A7%88%EC%A1%B4%20%EC%95%A0%EB%93%80%EB%A1%9C%EA%B7%B8%EC%9D%B83.PNG)
 ### **3.  **
 
 ![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/3.%EC%95%84%EB%A7%88%EC%A1%B4%20%EC%95%A0%EB%93%80%EB%A1%9C%EA%B7%B8%EC%9D%B84.PNG)
