@@ -17,7 +17,9 @@ Google AWS 검색            |  **[AWS Educate]**(https://www.awseducate.com/)
 ### 4. My Classrooms에 접속
 확인 팝업            |  My Classrooms 접속
 :-------------------------:|:-------------------------:
-![3](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/5.%EB%A7%88%EC%9D%B4%ED%81%B4%EB%9E%98%EC%8A%A4%20%ED%8C%9D%EC%97%85.PNG) "계속을 선택"|![4](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/6.%EB%A7%88%EC%9D%B4%ED%81%B4%EB%9E%98%EC%8A%A4.PNG) "go to classroom 선택"
+![3](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/5.%EB%A7%88%EC%9D%B4%ED%81%B4%EB%9E%98%EC%8A%A4%20%ED%8C%9D%EC%97%85.PNG) |![4](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/6.%EB%A7%88%EC%9D%B4%ED%81%B4%EB%9E%98%EC%8A%A4.PNG) 
+:-------------------------:|:-------------------------:
+"계속을 선택"|"go to classroom 선택"
 
 ### 5. AWS Account status 확인
 ![5](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/7.aws%20console.PNG) 현재 계정 상태, 크레딧, 세션 시간 확인
@@ -25,4 +27,6 @@ Google AWS 검색            |  **[AWS Educate]**(https://www.awseducate.com/)
 ### 6. AWS Management console 접속 및 EC 접속
 Management console            |  EC2 접속
 :-------------------------:|:-------------------------:
-![6](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/8.aws%20console2.PNG) "콘솔 접속"|![6](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/9.EC2.PNG) "상단 서비스 - EC2 선택"
+![6](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/8.aws%20console2.PNG) |![6](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/9.EC2.PNG) 
+:-------------------------:|:-------------------------:
+"콘솔 접속"|"상단 서비스 - EC2 선택"
