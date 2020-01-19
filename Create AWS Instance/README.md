@@ -2,6 +2,7 @@
 
 - AWS에서 나만의 가상화 환경을 만들기 위해서는 인스턴스를 생성해야한다.
 - 인스턴스에는 OS, 사양, 보안 등의 설정과 함께 가상환경을 생성한다.
+- AWS Educate 가입 영상(학생편): (https://youtu.be/upUaxMaPxm0)
 ### 1. 먼저 AWS에 계정을 생성해야 한다.
 - 참고로 대학생에게는 등록된 학교에 대해서 일부 크레딧을 제공해준다.
 - 계정이 있다고 생각하고 인스턴스 생성 방법을 기술한다.
@@ -28,10 +29,16 @@ AWS Educate의 Main            |
 AWS Account status            |
 :-------------------------:|
 ![5](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/7.aws%20console.PNG) 
-"현재 계정 상태, 크레딧, 세션 시간 확인"|
+"현재 계정 상태, 크레딧, 세션 시간 확인" and "AWS Console" 선택|
 
 ### 6. AWS Management console 접속 및 EC 접속
 Management console            |  EC2 접속
 :-------------------------:|:-------------------------:
 ![6](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/8.aws%20console2.PNG) |![6](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/9.EC2.PNG) 
-"콘솔 접속"|"상단 서비스 - EC2 선택"
+"콘솔 접속"|"상단 서비스 - 컴퓨팅 - EC2 선택"
+
+### 7. EC2 대쉬보드
+EC2 대쉬보드            |  EC2 인스턴스 시작
+:-------------------------:|:-------------------------:
+![6](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/9.EC2.PNG) | ![7](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/10.%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%EC%8B%9C%EC%9E%91.PNG)
+"대쉬보드에서는 리소스 등 다양한 정보확인"|"Main화면 인스턴스 시작" - "인스턴스 시작 선택"
