@@ -30,6 +30,10 @@ Google AWS 검색            |  **[AWS Educate]**(https://www.awseducate.com/)
 :-------------------------:|:-------------------------:
 ![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/2.%EC%95%84%EB%A7%88%EC%A1%B4%20%EC%95%A0%EB%93%80%EB%A1%9C%EA%B7%B8%EC%9D%B82.PNG "Google AWS 검색")  |  ![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/3.%EC%95%84%EB%A7%88%EC%A1%B4%20%EC%95%A0%EB%93%80%EB%A1%9C%EA%B7%B8%EC%9D%B83.PNG "[AWS Educate]")"아래의 AWS Educate에 로그인" 선택
 
-### **3.  **
+### **3. AWS Educate의 Main 화면 접속된다. **
+![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/4.%EC%95%84%EB%A7%88%EC%A1%B4%20%EC%95%A0%EB%93%80%EB%A9%94%EC%9D%B8.PNG) "상단 중간 My Classrooms를 선택"
 
-![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/3.%EC%95%84%EB%A7%88%EC%A1%B4%20%EC%95%A0%EB%93%80%EB%A1%9C%EA%B7%B8%EC%9D%B84.PNG) 
+### **4. My Classrooms에 접속 **
+확인 팝업            |  My Classrooms 접속
+:-------------------------:|:-------------------------:
+![3](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/5.%EB%A7%88%EC%9D%B4%ED%81%B4%EB%9E%98%EC%8A%A4%20%ED%8C%9D%EC%97%85.PNG) "계속을 선택"|![4](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/6.%EB%A7%88%EC%9D%B4%ED%81%B4%EB%9E%98%EC%8A%A4.PNG) "go to classroom 선택"
