@@ -31,4 +31,4 @@ Original            |  GT   |  Result
 
 **[AWS Educate]**(https://www.awseducate.com/)
 
-### **3. **
+### **3.  **
