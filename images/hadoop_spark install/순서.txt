@@ -1,0 +1,27 @@
+2. jdk 다운로드
+sudo add-apt-repository ppa:webupd8team/java
+sudo apt install openjdk-8-jdk-headless
+
+3. hadoop 다운로드
+wget http://apache.claz.org/hadoop/common/hadoop-3.1.3/hadoop-3.1.3.tar.gz
+tar -xzvf hadoop-3.1.3.tar.gz
+sudo mv hadoop-3.1.3 /usr/local/hadoop
+
+4. 환경변수 설정
+sudo nano /etc/environment
+기존 PATH 뒤에 :/usr/local/hadoop/bin:/usr/local/hadoop/sbin 추가
+JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64/jre" 추가
+
+source /etc/environment
+nano .bashrc 아래에
+export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre
+export HADOOP_HOME=/usr/local/hadoop
+export PATH=$PATH:$HADOOP_HOME/bin
+export PATH=$PATH:$HADOOP_HOME/sbin
+
+source .bashrc
+
+5. hadoop test
+-new version
+hadoop jar /usr/local/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.3.jar wordcount /usr/local/hadoop/LICENSE.txt output
+ 
