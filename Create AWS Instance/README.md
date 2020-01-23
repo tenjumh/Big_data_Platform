@@ -62,5 +62,8 @@ EC2 대쉬보드            |  EC2 인스턴스 시작
 
 키페어 선택             |  인스턴스 생성 완료
 :-------------------------:|:-------------------------:
-![9-3](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/17.%ED%82%A4%ED%8E%98%EC%96%B4%EC%84%A0%ED%83%9D%20%EC%A0%91%EC%86%8D.PNG) | ![9-4](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/18.%EC%83%9D%EC%84%B1%ED%99%95%EC%9D%B8.PNG)
-"기존 키 페어 선택으로 생성된 키페어를 선택하고 "인스턴스 시작""|"이제는 인스턴스 생성이 완료, 인스턴스 상태가 running임을 확인하고 **IPv4 퍼블릭 IP**를 체크"
+![9-3](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/17.%ED%82%A4%ED%8E%98%EC%96%B4%EC%84%A0%ED%83%9D%20%EC%A0%91%EC%86%8D.PNG) | ![9-4](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/19.%ED%8D%BC%ED%94%8C%EB%A6%ADIP%ED%99%95%EC%9D%B8.PNG)
+"기존 키 페어 선택으로 생성된 키페어를 선택하고 "인스턴스 시작""|"인스턴스 생성이 완료 확인"
+
+### 10. 인스턴스 완료
+- 인스턴스 상태가 Runing이라면 완료가 된 것이며, 해당 인스턴스의 **IPv4 퍼블릭 IP**를 체크
