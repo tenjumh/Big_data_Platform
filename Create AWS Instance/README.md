@@ -48,6 +48,7 @@ EC2 대쉬보드            |  EC2 인스턴스 시작
 :-------------------------:|:-------------------------:
 ![8-1](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/11.machine%20image%20selection.PNG) | ![8-2](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/12%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%EC%9C%A0%ED%98%95.PNG)
 "AWS에 적용할 OS를 선택하고 하단 "다음""|"프리티어 사용가능(기본설정) 선택하고 하단 "다음""
+
 스토리지 추가            |  보안 그룹 구성
 :-------------------------:|:-------------------------:
 ![8-3](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/13.%EC%8A%A4%ED%86%A0%EB%A6%AC%EC%A7%80.PNG) | ![8-4](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/14.%EB%B3%B4%EC%95%88%EA%B7%B8%EB%A3%B9%EC%84%A4%EC%A0%95.PNG)
@@ -58,6 +59,7 @@ EC2 대쉬보드            |  EC2 인스턴스 시작
 :-------------------------:|:-------------------------:
 ![9-1](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/15.%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%20%EC%8B%9C%EC%9E%91%20%EA%B2%80%ED%86%A0.PNG) | ![9-2](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/16.%EC%83%88%ED%82%A4%ED%8E%98%EC%96%B4%EC%83%9D%EC%84%B1.PNG)
 "세부 정보를 확인하고 하단의 "시작""|"인증은 키페어로 진행되며 기존 키페어가 없으면 새키페어생성으로 다운로드"
+
 **키페어 선택**            |  **인스턴스 생성 완료**
 ![9-3](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/17.%ED%82%A4%ED%8E%98%EC%96%B4%EC%84%A0%ED%83%9D%20%EC%A0%91%EC%86%8D.PNG) | ![9-4](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/18.%EC%83%9D%EC%84%B1%ED%99%95%EC%9D%B8.PNG)
 "기존 키 페어 선택으로 생성된 키페어를 선택하고 "인스턴스 시작""|"이제는 인스턴스 생성이 완료, 인스턴스 상태가 running임을 확인하고 **IPv4 퍼블릭 IP**를 체크"
