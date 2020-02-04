@@ -3,7 +3,7 @@
 ### 1. 먼저 xshell을 다운로드 한다.
 netsarang 접속           |  하단의 비상업용 버전 정보 입력 후 다운로드
 :-------------------------:|:-------------------------:
-![alt-text-10](https://github.com/tenjumh/GraduateSchool/blob/master/BigData_Platform/images/setup%20Xshell/1.%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.PNG)  |  ![alt-text-10](https://github.com/tenjumh/GraduateSchool/blob/master/BigData_Platform/images/setup%20Xshell/2.%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.PNG "[AWS Educate]")
+![alt-text-10](https://github.com/tenjumh/GraduateSchool/blob/master/BigData_Platform/images/setup%20Xshell/1.%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.PNG)  |  ![alt-text-10](https://github.com/tenjumh/GraduateSchool/blob/master/BigData_Platform/images/setup%20Xshell/2.%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.PNG)
 "Google AWS 검색"|"아래의 AWS Educate에 로그인" 선택
 
 ### 2. AW
