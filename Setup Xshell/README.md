@@ -8,17 +8,17 @@ netsarang 접속           |  하단의 비상업용 버전 정보 입력 후 �
 ![alt-text-10](https://github.com/tenjumh/GraduateSchool/blob/master/BigData_Platform/images/setup%20Xshell/1.%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.PNG)  |  ![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/setup%20Xshell/2.%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C2.PNG)
 "사이트 접속"|"개인정보 입력 후 다운로드"
 
-### 1. 먼저 xshell을 다운로드 한다.
-netsarang 접속            |  하단의 비상업용 버전 정보 입력 후 다운로드
+### 2. 메일을 통한 Xshell 다운로드
+등록한 메일 확인            |  메일 링크를 통한 다운로드
 :-------------------------:|:-------------------------:
-![3](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/5.%EB%A7%88%EC%9D%B4%ED%81%B4%EB%9E%98%EC%8A%A4%20%ED%8C%9D%EC%97%85.PNG) |![4](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/6.%EB%A7%88%EC%9D%B4%ED%81%B4%EB%9E%98%EC%8A%A4.PNG) 
-"계속을 선택"|"go to classroom 선택"
+![3](https://github.com/tenjumh/Big_data_Platform/blob/master/images/setup%20Xshell/3.%EB%A9%94%EC%9D%BC%ED%99%95%EC%9D%B8.PNG) |![4](https://github.com/tenjumh/Big_data_Platform/blob/master/images/setup%20Xshell/4.%EB%A7%81%ED%81%AC%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.PNG)
+"등록한 메일로 설치링크가 도착"|"메일 내용 중 다운로드 링크를 통해 다운로드"
 
-### 2. AW
-Google AWS 검색            |  **[AWS Educate]**(https://www.awseducate.com/)
+### 3. 다운로드 후 설치
+다운로드 받은 설치파일 실행            |  바탕화면에 바로가기 아이콘 표시
 :-------------------------:|:-------------------------:
-![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/2.%EC%95%84%EB%A7%88%EC%A1%B4%20%EC%95%A0%EB%93%80%EB%A1%9C%EA%B7%B8%EC%9D%B82.PNG)  |  ![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/3.%EC%95%84%EB%A7%88%EC%A1%B4%20%EC%95%A0%EB%93%80%EB%A1%9C%EA%B7%B8%EC%9D%B83.PNG "[AWS Educate]")
-"Google AWS 검색"|"아래의 AWS Educate에 로그인" 선택
+![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/setup%20Xshell/5.%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.PNG)  |  ![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/setup%20Xshell/5_1.%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C%20%EC%84%A4%EC%B9%98.PNG)
+"다운로드된 exe파일을 실행한다."|"바탕화면에 "Xshell6" 바로가기" 선택
 
 
 ### 10. 인스턴스 완료
