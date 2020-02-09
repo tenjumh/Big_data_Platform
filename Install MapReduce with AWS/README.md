@@ -17,35 +17,68 @@ SSH를 통합 AWS 접속            |
 ![3](https://github.com/tenjumh/Big_data_Platform/blob/master/images/hadoop_spark%20install/1.PNG) |![4](https://github.com/tenjumh/Big_data_Platform/blob/master/images/hadoop_spark%20install/2.PNG) 
 "sudo add-apt-repository ppa:webupd8team/java" 입력|"sudo apt install openjdk-8-sudo apt install openjdk-8-jdk-headless"입력
 
-### 3. AWS Educate의 Main 화면 접속된다.
-AWS Educate의 Main            |
+### 3. hadoop 최신 버전을 다운로드 한다.
+최신 버전 다운로드            |
 :-------------------------:|
-![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/4.%EC%95%84%EB%A7%88%EC%A1%B4%20%EC%95%A0%EB%93%80%EB%A9%94%EC%9D%B8.PNG) 
-"상단 중간 My Classrooms를 선택"|
+![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/hadoop_spark%20install/3.PNG) 
+"wget http://apache.claz.org/hadoop/common/hadoop-3.1.3/hadoop-3.1.3.tar.gz" 입력|
 
-### 4. My Classrooms에 접속
-확인 팝업            |  My Classrooms 접속
-:-------------------------:|:-------------------------:
-![3](.PNG) |![4](4.PNG) 
-"계속을 선택"|"go to classroom 선택"
+### 4. hadoop 압축 풀기 및 디렉터리 이동
+- 압축 풀기 
+```
+tar - xzvf hadoop-3.1.3.tar.gz
+```
+- 파일 이동
+```
+sudo mv hadoop-3.1.3 /usr/local/hadoop
+```
 
-### 5. AWS Account status 확인
-AWS Account status            |
+### 5-1. 환경 변수 설정
+- 환경 변수 설정 열기
+```
+sudo nano /etc/environment
+```
+- nano 편집창이 열림
+- 기존 경로 뒤에 JAVA_HOME 경로를 추가
+```
+PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/local/h$
+```
+```
+JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64/jre"
+```
+nano 편집창에서 기존 경로뒤에 경로 추가            |
 :-------------------------:|
-![5](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/7.aws%20console.PNG) 
-"현재 계정 상태, 크레딧, 세션 시간 확인" and "AWS Console" 선택|
+![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/hadoop_spark%20install/4.PNG) 
+"JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64/jre"" 추가 및 Ctrl-x로 저장(Y) 후 나옴|
 
-### 6. AWS Management console 접속 및 EC 접속
-Management console            |  EC2 접속
-:-------------------------:|:-------------------------:
-![6](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/8.aws%20console2.PNG) |![6](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/8_1.aws%20console3_EC2.PNG) 
-"콘솔 접속"|"상단 서비스 - 컴퓨팅 - EC2 선택"
+### 5-2. 환경 변수 설정
+- 환경 변수 설정 열기
+```
+source /etc/evnironment
+nano .bashrc
+```
+- nano 편집창이 열림
+아래에 그림 같이            |
+:-------------------------:|
+![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/hadoop_spark%20install/5.nano%20.bashrc.PNG) 
+```
+"export JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre" 
+"export HADOOP_HOME=/usr/local/hadoop"
+"export PATH=$PATH:$HADOOP_HOME/bin"
+"export PATH=$PATH:$HADOOP_HOME/sbin"
+```
+추가 |
 
-### 7. EC2 대쉬보드
-EC2 대쉬보드            |  EC2 인스턴스 시작
-:-------------------------:|:-------------------------:
-![7](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/9.EC2.PNG) | ![7](https://github.com/tenjumh/Big_data_Platform/blob/master/images/create%20aws/10.%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%EC%8B%9C%EC%9E%91.PNG)
-"대쉬보드에서는 리소스 등 다양한 정보확인"|"Main화면 인스턴스 시작" - "인스턴스 시작 선택"
+### 6. hadoop test
+- hadoop test
+```
+hadoop jar /usr/local/hadoop/share/hadoop/mapreduce/hadoop-mapreduce-examples-3.1.3.jar wordcount /usr/local/hadoop/LICENSE.txt output
+```
+- output 폴더 안의 part-r-00000확인
+아래에 그림 같이 나오면            |
+:-------------------------:|
+![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/hadoop_spark%20install/6.part-r-00000.PNG) 
+나오면 성공 |
 
 ### 8. 인스턴스 구성하기
 인스턴스 OS 설정            |  인스턴스 유형 선택
