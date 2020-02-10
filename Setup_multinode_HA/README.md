@@ -250,6 +250,7 @@ dn3
 ```	
 - "Ctrl-x"후 "Y" 저장하고 나온다.
 <br>
+
 - nano 편집기로 **masters** 편집 저장한다.
 ```
 sudo nano /usr/local/hadoop/etc/hadoop/masters
