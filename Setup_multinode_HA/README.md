@@ -1,21 +1,18 @@
 # Multinode 및 HA 설정하기
 
-- 멀티 노드 등 서버 구성은 하기와 같이 한다.
-nn1: QuorumPeerMain(zookeeper), JournalNode, DFSZKFailoverController, NameNode(active), Resourcemanager
-nn2: QuorumPeerMain(zookeeper), JournalNode, DFSZKFailoverController, NameNode(standby)
-dn1: QuorumPeerMain(zookeeper), JournalNode, DataNode, Nodemanager
-dn2: DataNode, Nodemanager
-dn3: DataNode, Nodemanager
+- 멀티 노드 등 서버 구성은 하기와 같이 한다.<br>
+nn1: QuorumPeerMain(zookeeper), JournalNode, DFSZKFailoverController, NameNode(active), Resourcemanager<br>
+nn2: QuorumPeerMain(zookeeper), JournalNode, DFSZKFailoverController, NameNode(standby)<br>
+dn1: QuorumPeerMain(zookeeper), JournalNode, DataNode, Nodemanager<br>
+dn2: DataNode, Nodemanager<br>
+dn3: DataNode, Nodemanager<br>
 
 ## 1. zookeeper 설치 및 설정하기
+
+### 1). zookeeper 다운로드
 ```
 sudo wget http://mirror.apache-kr.org/zookeeper/zookeeper-3.4.14/zookeeper-3.4.14.tar.gz
 ```
-
-
-### 1). zookeeper 다운로드
-- 참고로 대학생에게는 등록된 학교에 대해서 일부 크레딧을 제공해준다.
-- 계정이 있다고 생각하고 인스턴스 생성 방법을 기술한다.
 ![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/Setup_multinode_HA/1_download.PNG)
 
 ### 2). 압축해제 및 샘플 설정 파일 복사
