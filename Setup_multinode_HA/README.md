@@ -154,6 +154,7 @@ sudo nano /usr/local/hadoop/etc/hadoop/hdfs-site.xml
 ```	
 - "Ctrl-x"후 "Y" 저장하고 나온다.
 <br>
+
 - nano 편집기로 **core-site.xml** 편집 저장한다.
 ```
 sudo nano /usr/local/hadoop/etc/hadoop/core-site.xml
@@ -178,6 +179,7 @@ sudo nano /usr/local/hadoop/etc/hadoop/core-site.xml
 - "Ctrl-x"후 "Y" 저장하고 나온다.
 ![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/Setup_multinode_HA/4.PNG)
 <br>
+
 - nano 편집기로 **yarn-site.xml** 편집 저장한다.
 ```
 sudo nano /usr/local/hadoop/etc/hadoop/yarn-site.xml
@@ -206,6 +208,7 @@ sudo nano /usr/local/hadoop/etc/hadoop/yarn-site.xml
 - "Ctrl-x"후 "Y" 저장하고 나온다.
 ![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/Setup_multinode_HA/5.PNG)
 <br>
+
 - nano 편집기로 **mapred-site.xml** 편집 저장한다.
 ```
 sudo nano /usr/local/hadoop/etc/hadoop/mapred-site.xml
@@ -234,6 +237,7 @@ sudo nano /usr/local/hadoop/etc/hadoop/mapred-site.xml
 - "Ctrl-x"후 "Y" 저장하고 나온다.
 ![alt-text-10](https://github.com/tenjumh/Big_data_Platform/blob/master/images/Setup_multinode_HA/6.PNG)
 <br>
+
 - nano 편집기로 **workers** 편집 저장한다.
 ```
 sudo nano /usr/local/hadoop/etc/hadoop/workers
